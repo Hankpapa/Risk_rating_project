@@ -20,10 +20,10 @@ In this part, I followed each step of the data progress: <br />
          Using matplotlib and seaborn generated heatmaps for each dataset to remove the features, which are higher than 0.7 in correlation.
  4. ANOVA and Kendall's rank:<br />
          Employed those two methods filter the irrelevant features
- 5. Standard Scaled\
- 6. One-hot encoding\
- 7. label encoding\
- 8. Train-validation-test split\
+ 5. Standard Scaled
+ 6. One-hot encoding
+ 7. label encoding
+ 8. Train-validation-test split
  9. evaluating the datasets by decision tree:<br />
          Imputation with regression achieved the highest F1 score. This dataset would move forward.
 # Model fitting 
