@@ -15,7 +15,7 @@ In this part, I followed each step of the data progress: <br />
      - Dropping all missing value data.
  2.  Handling the missing data:<br />
      - Using 4 ways on missing data: dropping more than 20% of missing data columns, imputation with mean, imputation with median, and imputation with regression.
-     - Each way was applied independently and created 4 datasets. They will evaluate by decision tree for selection later.
+     - Each way was applied independently and created 4 datasets. They would be evaluated by the decision tree for selection later.
  3. Dropping the high correlation feature:<br />
      - Using matplotlib and seaborn generated heatmaps for each dataset to remove the features, which are higher than 0.7 in correlation.
  4. ANOVA and Kendall's rank:<br />
