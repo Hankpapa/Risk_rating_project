@@ -11,8 +11,8 @@ In this section, I provide the basic information of the dataset including the to
 # Model engineering
 In this part, I followed each step of the data progress: <br />
  1.  Removing outlier and error data: <br />
-         Dropping the data without the range of 2 standard deviations with mean.\
-         Dropping all missing value data.
+     - Dropping the data without the range of 2 standard deviations with mean.\
+     - Dropping all missing value data.
  2.  Handling the missing data:<br />
          Using 4 ways on missing data: dropping more than 20% of missing data columns, imputation with mean, imputation with median, and imputation with regression.\
          Each way was applied independently and created 4 datasets. They will evaluate by decision tree for selection later.
