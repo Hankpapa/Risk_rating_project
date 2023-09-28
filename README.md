@@ -1,1 +1,2 @@
-# Risk_rating_project
+# Abstract 
+This project employs a computer program that considers 128 dynamic numerical variables and 4 categorical factors to evaluate risk for a company. The program utilizes a variety of methods, such as random forest, XGboost, and neural networks, and the data is improved through processes like outlier removal, missing data handling, and feature selection. In multi-class classification, the program achieves an overall accuracy rate of approximately 23%, with particular attention to the significance of BRcode 12 and Variable_17_Y0 in making risk assessments. These methods have the potential to assist the company in identifying and managing risk among new clients, thereby minimizing potential losses and maximizing profits with safer clients.
