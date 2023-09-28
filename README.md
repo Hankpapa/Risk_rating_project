@@ -18,13 +18,13 @@ In this part, I followed each step of the data progress: <br />
          Each way was applied independently and created 4 datasets. They will evaluate by decision tree for selection later.\
  3. Dropping the high correlation feature:\
          Using matplotlib and seaborn generated heatmaps for each dataset to remove the features, which are higher than 0.7 in correlation.\
-      4. ANOVA and Kendall's rank:\
+ 4. ANOVA and Kendall's rank:\
          Employed those two methods filter the irrelevant features\
-      5. Standard Scaled\
-      6. One-hot encoding\
-      7. label encoding\
-      8. Train-validation-test split\
-      9. evaluating the datasets by decision tree:\
+ 5. Standard Scaled\
+ 6. One-hot encoding\
+ 7. label encoding\
+ 8. Train-validation-test split\
+ 9. evaluating the datasets by decision tree:\
          Imputation with regression achieved the highest F1 score. This dataset would move forward.
 # Model fitting 
 XGBoost and Random Forest have outstanding performance. For higher accuracy, Both models tuned with GridSearchCV, One Vs One, and One Vs Rest. The F1 score is around 23% in both methods. BR code 12 and Variable_17_Y0 have larger significance.
